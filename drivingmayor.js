@@ -1,11 +1,11 @@
-// const carPassing = function(cars, speed){
-//   const newSpeed = {
-//     time: Date.now(),
-//     speed,
-//   };
-//   cars.push(newSpeed);
-//   return cars
-// }
+const carPassing = function(cars, speed){
+  const newSpeed = {
+    time: Date.now(),
+    speed,
+  };
+  cars.push(newSpeed);
+  return cars
+}
 const cars = [
   {
     time: 1568329654807,
